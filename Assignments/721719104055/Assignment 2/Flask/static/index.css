@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgba(122, 233, 233, 0.486)
+    border-radius: 25px;
+
+body{
+    background-color:aliceblue;
+}
