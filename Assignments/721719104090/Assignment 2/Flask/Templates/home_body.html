@@ -1,0 +1,34 @@
+{% include 'base.html' %}
+
+<div class ="container d-flex justify-content-center align-items-center"  style="min-height: 100vh ;"> 
+  <div style="display: flex;">
+    
+        <div class="media">
+          <h3 class="media-heading">Eat a healthy diet</h3>
+            <div class="media-left">
+                <img class="media-object" src="{{url_for('static', filename='healthy food.jpg')}}" style="height: 200px; width: 400px;">
+            </div>
+            <div class="media-body">
+              <p sty><br>
+                Eat a combination of different foods, including fruit, vegetables, legumes, nuts and whole grains. Adults should eat at least five portions (400g) of fruit and vegetables per day
+              </p>
+            </div>
+        </div>
+        
+        <div class="media">
+          <h3 class="media-heading">Reduce intake of fats
+            <div class="media-left">
+                <img class="media-object" src="{{url_for('static', filename='unhealthy food.jpg')}}" style="height: 200px; width: 400px;">
+            </div>
+            <div class="media-body">
+              </h3>
+              <p><br>
+                Fats consumed should be less than 30% of your total energy intake. This will help prevent unhealthy weight gain and NCDs
+              </p>
+            </div>
+          </div> 
+    </div>
+</div>    
+
+
+{% include 'footer.html' %}
